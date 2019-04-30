@@ -17,4 +17,10 @@ public class HospitalType {
     private int id;
     private String description;
 
+    public HospitalType() {
+    }
+
+    public HospitalType(String description) {
+        this.description = description;
+    }
 }
